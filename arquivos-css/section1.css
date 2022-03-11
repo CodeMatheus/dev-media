@@ -19,13 +19,16 @@ section .wrapper-navigation {
 
 section .wrapper-navigation .aba {
     background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 section .aba-navigation {
-    display: inline-flex;
-    width: 33.01%;
-    justify-content: center;
     color: white;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
@@ -82,4 +85,5 @@ button {
     padding: 15px 20px;
     margin-bottom: 20px;
     cursor: pointer;
+    min-width: 231px;
 }

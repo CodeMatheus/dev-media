@@ -1,0 +1,92 @@
+@media screen and (max-width: 872px) {
+    header {
+        margin: 0px 10%;
+    }
+    section .wrapper-navigation {
+        max-width: 90vw;
+    }
+    section .container-section-grid {
+        max-width: 96vw;
+    }
+    section .container-section-grid .grid-text {
+        height: 25vh;
+    }
+    section .container-section-grid .grid2 {
+        margin-bottom: 30px;
+        grid-template-rows: 30vh 25vh;
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+    header {
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .section-banner {
+        background-image: none;
+        height: 360px
+    }
+    section .wrapper-navigation {
+        max-width: 100vw;
+        position: relative;
+    }
+    section .wrapper-navigation h2 {
+        margin-top: 15px;
+    }
+    section .label-input {
+        display: block;
+        width: 49.5%;
+        margin-bottom: 15px;
+    }
+    section .label-input #partida {
+        width: 200%;
+    }
+    section .label-input #destino {
+        width: 200%;
+    }
+
+    .container-section-grid .grid {
+        display: block;
+    }
+
+    section .container-section-grid .grid2 {
+        display: block;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    section .container-section-grid .grid-text {
+        background-color: white;
+        margin-top: -2px;
+        padding-left: 15px;
+        height: 23vh;
+    }
+    section #btn2 {
+        min-width: 25vw;
+        font-size: 1rem;
+        width: 30vw;
+        text-align: center;
+    }
+    section #btn3 {
+        min-width: 25vw;
+        font-size: 1rem;
+        width: 37vw;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 350px) {
+        section #btn2 {
+            min-width: 36vw;
+            font-size: 1rem;
+            width: 30vw;
+            text-align: center;
+        }
+        section #btn3 {
+            min-width: 38vw;
+            font-size: 1rem;
+            width: 37vw;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    }
+}
