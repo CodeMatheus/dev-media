@@ -1,4 +1,4 @@
-main {
+body {
     background-color: #F0F0F0;
 }
 
@@ -88,5 +88,43 @@ section .container-section-grid .grid-img p {
     left: 15px;
     z-index: 100;
     color: white;
+}
+
+/*--------------------------------------------------------------------*/
+
+section .container-section-grid .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vh 20vh;
+    margin-top: 10px;
+    grid-column-gap: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+section .container-section-grid .grid-text {
+    background-color: white;
+    margin-top: -2px;
+    padding-left: 15px;
+    height: 20vh;
+}
+
+section .container-section-grid .grid-text h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+section .container-section-grid .grid-text p {
+    padding-bottom: 25px;
+    font-size: 1rem;
+}
+
+section .container-section-grid .grid-text span {
+    color: gray;
+}
+
+section .container-section-grid .grid-text a {
+    margin-left: 15px;
+    padding-top: 5px;
+    color: black;
 }
 

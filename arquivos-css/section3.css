@@ -1,0 +1,47 @@
+form {
+    background-color: #636363;
+    margin-top: 30px;
+    color: white;
+}
+
+form .form-wrapper {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+form .form-wrapper h2 {
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+form .form-wrapper p {
+    font-size: 0.9rem;
+}
+
+form .form-wrapper .input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form .form-wrapper .input label {
+    font-size: .9rem;
+}
+
+form .form-wrapper .input input {
+    height: 40px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border: 1px solid rgba(68, 68, 68, 0.212);
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+form .form-wrapper .input button {
+    background-color: salmon;
+    width: 7vw;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}

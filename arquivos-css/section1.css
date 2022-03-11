@@ -75,7 +75,7 @@ section .info-navigation input {
 }
 
 button {
-    background-color: rgb(117, 117, 117);
+    background-color: #636363;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     color: white;
