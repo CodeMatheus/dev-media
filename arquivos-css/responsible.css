@@ -9,7 +9,7 @@
         max-width: 96vw;
     }
     section .container-section-grid .grid-text {
-        height: 25vh;
+        height: 210px;
     }
     section .container-section-grid .grid2 {
         margin-bottom: 30px;
@@ -59,7 +59,7 @@
         background-color: white;
         margin-top: -2px;
         padding-left: 15px;
-        height: 23vh;
+        height: 190px;
     }
     section #btn2 {
         min-width: 25vw;
