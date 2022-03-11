@@ -1,0 +1,92 @@
+main {
+    background-color: #F0F0F0;
+}
+
+section .container-section-grid {
+    max-width: 70vw;
+    width: 100%;
+    margin: auto;
+}
+
+.container-section-grid h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container-section-grid p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.container-section-grid .grid {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 50% 24% 24%;
+    grid-template-rows: 25vh 25vh;
+    grid-gap: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.container-section-grid .grid .grid-img {
+    position: relative;
+}
+
+#div-grid-img1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: red;
+    max-width: 672px;
+}
+
+#div-grid-img2 {
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#div-grid-img3 {
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#div-grid-img4 {
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#div-grid-img5 {
+    background-color: purple;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+section .container-section-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 200ms linear;
+}
+
+section .container-section-grid img:hover {
+    transform: scale(1.02);
+}
+
+section .container-section-grid .grid-img p {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    z-index: 100;
+    color: white;
+}
+

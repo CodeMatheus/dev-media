@@ -81,5 +81,5 @@ button {
     color: white;
     padding: 15px 20px;
     margin-bottom: 20px;
-    
+    cursor: pointer;
 }
