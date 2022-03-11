@@ -1,0 +1,85 @@
+.section-banner {
+    background-image: url(../imagens/london.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+section .wrapper-navigation {
+    background-color: white;
+    max-width: 50vw;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .wrapper-navigation .aba {
+    background-color: black;
+}
+
+section .aba-navigation {
+    display: inline-flex;
+    width: 33.01%;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+section .aba-navigation.flight {
+    background-color: #f44336;
+}
+
+section .aba-navigation i {
+    padding-right: 10px;
+}
+
+section .wrapper-navigation h2 {
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section .info-navigation {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+section .label-input {
+    display: inline-flex;
+    flex-direction: column;
+    width: 49.5%;
+    margin-bottom: 15px;
+}
+
+section .info-navigation label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+section .info-navigation input {
+    height: 50px;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    border: 1px solid rgba(68, 68, 68, 0.212);
+    outline: none;
+}
+
+button {
+    background-color: rgb(117, 117, 117);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    
+}
